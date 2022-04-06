@@ -1,5 +1,3 @@
-#!/bin/bash
-
 NUM=`cat * | wc -l | bc -l`
 RESULT=`expr $NUM % 2`
 
