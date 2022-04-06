@@ -28,4 +28,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Check source line
         run: |
-          check_source_line.sh
+          ./check_source_line.sh
